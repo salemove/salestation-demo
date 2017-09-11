@@ -1,0 +1,6 @@
+development: &development
+  threaded: true
+  threapool_size: 5
+
+test:
+  <<: *development

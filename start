@@ -1,0 +1,2 @@
+echo ">> Starting thin server on 3013"
+bundle exec thin -p 3013 -C config/thin.yml start
